@@ -1,0 +1,13 @@
+
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: |
+        ./mvnw install
+    command: |
+        ./mwvn
+vscode:
+  extensions:
+    - runem.lit-plugin
+    - vscjava.vscode-java-pack
+    - Pivotal.vscode-spring-boot
